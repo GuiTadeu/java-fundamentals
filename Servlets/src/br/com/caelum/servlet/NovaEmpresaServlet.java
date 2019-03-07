@@ -27,8 +27,12 @@ public class NovaEmpresaServlet extends HttpServlet {
 
         banco.add(empresa);
 
-        RequestDispatcher rd = req.getRequestDispatcher("/sucessoCadastro.jsp");
         req.setAttribute("empresa", empresa.getNome());
-        rd.forward(req, resp);
+
+        resp.sendRedirect("listaEmpresas");
+
+        /*RequestDispatcher rd = req.getRequestDispatcher("/listaEmpresas");
+        req.setAttribute("empresa", empresa.getNome());
+        rd.forward(req, resp);*/
     }
 }

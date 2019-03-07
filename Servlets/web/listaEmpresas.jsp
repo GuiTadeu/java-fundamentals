@@ -8,7 +8,7 @@
   Time: 16:59
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
     <title>Lista - Empresas</title>
@@ -20,8 +20,10 @@
     <ul>
         <c:forEach items="${lista}" var="empresa">
 
-            <li>${empresa.nome} |
+            <li> ${empresa.id}   |
+                 ${empresa.nome} |
                 <fmt:formatDate value="${empresa.abertura}" />
+                (<a href="/alteraEmpresa?id=${empresa.id}">Alterar</a> | <a href="/deletaEmpresa?id=${empresa.id}">Remover</a>)
             </li>
         </c:forEach>
     </ul>

@@ -8,16 +8,19 @@ public class Empresa {
     private String nome;
     private Date abertura = new Date();
 
+    private static int autoIncrement = 0;
+
+    public Empresa(){
+        autoIncrement++;
+        this.id = autoIncrement;
+    }
+
     public Integer getId() {
         return id;
     }
 
     public String getNome() {
         return nome;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public void setNome(String nome) {

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Excecoes/Excecoes.iml" filepath="$PROJECT_DIR$/Excecoes/Excecoes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Heranca&amp;Interface/Heranca&amp;Interface.iml" filepath="$PROJECT_DIR$/Heranca&amp;Interface/Heranca&amp;Interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaIO/JavaIO.iml" filepath="$PROJECT_DIR$/JavaIO/JavaIO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lambdas/Lambdas.iml" filepath="$PROJECT_DIR$/Lambdas/Lambdas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/POO/POO.iml" filepath="$PROJECT_DIR$/POO/POO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Servlets/Servlets.iml" filepath="$PROJECT_DIR$/Servlets/Servlets.iml" />
+    </modules>
+  </component>
+</project>

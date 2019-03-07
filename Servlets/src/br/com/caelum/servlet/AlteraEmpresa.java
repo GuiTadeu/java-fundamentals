@@ -12,8 +12,8 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet("/listaEmpresas")
-public class ListaEmpresasServlet extends HttpServlet {
+@WebServlet("/alteraEmpresa")
+public class AlteraEmpresa extends HttpServlet {
 
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -25,7 +25,8 @@ public class ListaEmpresasServlet extends HttpServlet {
 
         req.setAttribute("lista", lista);
 
-        RequestDispatcher rd = req.getRequestDispatcher("/listaEmpresas.jsp");
+        RequestDispatcher rd = req.getRequestDispatcher("/alteraEmpresa.jsp");
         rd.forward(req, resp);
+
     }
 }
