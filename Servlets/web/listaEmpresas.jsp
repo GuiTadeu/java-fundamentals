@@ -15,7 +15,13 @@
 </head>
 <body>
 
+    <a href="cadastroEmpresa.jsp">Cadastrar nova Empresa</a>
+
+    <hr />
+
     Lista de empresas <br>
+
+    <hr />
 
     <ul>
         <c:forEach items="${lista}" var="empresa">

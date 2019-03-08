@@ -12,19 +12,14 @@
     <title>Altera Empresa</title>
 </head>
 <body>
-    <form action="/alteraEmpresa" method="POST">
+    <form action="/sucessoAlteracao" method="POST">
 
-        <select name="id">
-            <c:forEach items="${lista}" var="empresa">
-                <option value="${empresa.id}">
-                    ${empresa.id}
-                </option>
-            </c:forEach>
-        </select>
-
+        <label for="idEmpresa">ID: ${empresa.id}</label>
+        <input id="idEmpresa" type="hidden" value="${empresa.id}" name="id">
 
         <label for="nomeEmpresa">Nome:</label>
-        <input id="nomeEmpresa" type="text" value="novoNome">
+        <input id="nomeEmpresa" type="text" value="${empresa.nome}" name="nome">
+
         <button type="submit">Alterar</button>
     </form>
 </body>

@@ -28,7 +28,6 @@ public class Banco {
     }
 
     public Empresa buscaPorID(int id){
-        // How change to Lambda?
         for(Empresa empresa : lista) {
             if(empresa.getId().equals(id)) {
                 return empresa;
