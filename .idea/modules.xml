@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Collections/Collections.iml" filepath="$PROJECT_DIR$/Collections/Collections.iml" />
       <module fileurl="file://$PROJECT_DIR$/Excecoes/Excecoes.iml" filepath="$PROJECT_DIR$/Excecoes/Excecoes.iml" />
       <module fileurl="file://$PROJECT_DIR$/Heranca&amp;Interface/Heranca&amp;Interface.iml" filepath="$PROJECT_DIR$/Heranca&amp;Interface/Heranca&amp;Interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java8/Java8.iml" filepath="$PROJECT_DIR$/Java8/Java8.iml" />
