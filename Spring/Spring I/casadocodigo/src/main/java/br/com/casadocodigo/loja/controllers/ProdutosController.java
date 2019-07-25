@@ -30,7 +30,7 @@ public class ProdutosController {
 	private ProdutoDAO dao;
 	
 	@Autowired
-    private FileSaver fileSaver;
+    	private FileSaver fileSaver;
 	
 	@InitBinder
 	public void initBinder(WebDataBinder binder) {
